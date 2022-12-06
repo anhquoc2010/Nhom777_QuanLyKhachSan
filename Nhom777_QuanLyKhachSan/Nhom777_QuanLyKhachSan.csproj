@@ -107,6 +107,9 @@
     <EmbeddedResource Include="View\FormQLHoaDon.resx">
       <DependentUpon>FormQLHoaDon.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="View\FormQLKhachHang.resx">
+      <DependentUpon>FormQLKhachHang.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\FormQLPhong.resx">
       <DependentUpon>FormQLPhong.cs</DependentUpon>
     </EmbeddedResource>
