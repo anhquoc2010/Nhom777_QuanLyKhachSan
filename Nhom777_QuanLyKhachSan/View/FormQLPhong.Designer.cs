@@ -33,6 +33,7 @@
             this.lb_loaiphong = new System.Windows.Forms.Label();
             this.btnLuu = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.cbbTinhTrang = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
             this.txtSoKhachToiDa = new System.Windows.Forms.TextBox();
@@ -48,9 +49,10 @@
             this.dgv_Phong = new System.Windows.Forms.DataGridView();
             this.lb_quanlyphong = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.pb_logo = new System.Windows.Forms.PictureBox();
             this.btDangXuat = new System.Windows.Forms.Button();
+            this.pb_women = new System.Windows.Forms.PictureBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.mn_thongke = new System.Windows.Forms.ToolStripMenuItem();
             this.mn_phong = new System.Windows.Forms.ToolStripMenuItem();
@@ -62,19 +64,17 @@
             this.bt_sua = new System.Windows.Forms.PictureBox();
             this.bt_them = new System.Windows.Forms.PictureBox();
             this.bt_search = new System.Windows.Forms.PictureBox();
-            this.pb_logo = new System.Windows.Forms.PictureBox();
-            this.pb_women = new System.Windows.Forms.PictureBox();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_Phong)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_logo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_women)).BeginInit();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bt_xoa)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bt_sua)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bt_them)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bt_search)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_logo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_women)).BeginInit();
             this.SuspendLayout();
             // 
             // bt_hienthi
@@ -140,6 +140,17 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(275, 455);
             this.panel2.TabIndex = 20;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.SystemColors.Highlight;
+            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button1.Location = new System.Drawing.Point(20, 413);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(115, 30);
+            this.button1.TabIndex = 11;
+            this.button1.Text = "Lưu";
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // cbbTinhTrang
             // 
@@ -289,17 +300,6 @@
             this.panel1.Size = new System.Drawing.Size(983, 32);
             this.panel1.TabIndex = 15;
             // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.SystemColors.Highlight;
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(20, 413);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(115, 30);
-            this.button1.TabIndex = 11;
-            this.button1.Text = "Lưu";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -314,6 +314,17 @@
             this.panel3.Size = new System.Drawing.Size(983, 38);
             this.panel3.TabIndex = 18;
             // 
+            // pb_logo
+            // 
+            this.pb_logo.Image = global::Nhom777_QuanLyKhachSan.Properties.Resources.logo_hotel;
+            this.pb_logo.Location = new System.Drawing.Point(-4, 0);
+            this.pb_logo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pb_logo.Name = "pb_logo";
+            this.pb_logo.Size = new System.Drawing.Size(51, 38);
+            this.pb_logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pb_logo.TabIndex = 0;
+            this.pb_logo.TabStop = false;
+            // 
             // btDangXuat
             // 
             this.btDangXuat.BackColor = System.Drawing.Color.DarkRed;
@@ -325,6 +336,17 @@
             this.btDangXuat.TabIndex = 2;
             this.btDangXuat.Text = "Đăng xuất";
             this.btDangXuat.UseVisualStyleBackColor = false;
+            // 
+            // pb_women
+            // 
+            this.pb_women.Image = global::Nhom777_QuanLyKhachSan.Properties.Resources.woman;
+            this.pb_women.Location = new System.Drawing.Point(802, 2);
+            this.pb_women.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pb_women.Name = "pb_women";
+            this.pb_women.Size = new System.Drawing.Size(35, 36);
+            this.pb_women.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pb_women.TabIndex = 1;
+            this.pb_women.TabStop = false;
             // 
             // menuStrip1
             // 
@@ -341,7 +363,7 @@
             this.mn_taikhoan});
             this.menuStrip1.Location = new System.Drawing.Point(42, 4);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(712, 34);
+            this.menuStrip1.Size = new System.Drawing.Size(673, 33);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -351,7 +373,7 @@
             this.mn_thongke.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mn_thongke.ForeColor = System.Drawing.Color.Maroon;
             this.mn_thongke.Name = "mn_thongke";
-            this.mn_thongke.Size = new System.Drawing.Size(119, 30);
+            this.mn_thongke.Size = new System.Drawing.Size(112, 29);
             this.mn_thongke.Text = "Thống Kê";
             // 
             // mn_phong
@@ -360,7 +382,7 @@
             this.mn_phong.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mn_phong.ForeColor = System.Drawing.Color.Maroon;
             this.mn_phong.Name = "mn_phong";
-            this.mn_phong.Size = new System.Drawing.Size(86, 30);
+            this.mn_phong.Size = new System.Drawing.Size(79, 29);
             this.mn_phong.Text = "Phòng";
             // 
             // mn_hoadon
@@ -368,7 +390,7 @@
             this.mn_hoadon.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mn_hoadon.ForeColor = System.Drawing.Color.Maroon;
             this.mn_hoadon.Name = "mn_hoadon";
-            this.mn_hoadon.Size = new System.Drawing.Size(110, 30);
+            this.mn_hoadon.Size = new System.Drawing.Size(106, 29);
             this.mn_hoadon.Text = "Hóa Đơn";
             // 
             // mn_khachhang
@@ -377,7 +399,7 @@
             this.mn_khachhang.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mn_khachhang.ForeColor = System.Drawing.Color.Maroon;
             this.mn_khachhang.Name = "mn_khachhang";
-            this.mn_khachhang.Size = new System.Drawing.Size(140, 30);
+            this.mn_khachhang.Size = new System.Drawing.Size(132, 29);
             this.mn_khachhang.Text = "Khách Hàng";
             // 
             // mn_nhanvien
@@ -385,7 +407,7 @@
             this.mn_nhanvien.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mn_nhanvien.ForeColor = System.Drawing.Color.Maroon;
             this.mn_nhanvien.Name = "mn_nhanvien";
-            this.mn_nhanvien.Size = new System.Drawing.Size(125, 30);
+            this.mn_nhanvien.Size = new System.Drawing.Size(118, 29);
             this.mn_nhanvien.Text = "Nhân Viên";
             // 
             // mn_taikhoan
@@ -393,7 +415,7 @@
             this.mn_taikhoan.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mn_taikhoan.ForeColor = System.Drawing.Color.Maroon;
             this.mn_taikhoan.Name = "mn_taikhoan";
-            this.mn_taikhoan.Size = new System.Drawing.Size(124, 30);
+            this.mn_taikhoan.Size = new System.Drawing.Size(118, 29);
             this.mn_taikhoan.Text = "Tài Khoản";
             // 
             // bt_xoa
@@ -441,26 +463,6 @@
             this.bt_search.TabIndex = 19;
             this.bt_search.TabStop = false;
             // 
-            // pb_logo
-            // 
-            this.pb_logo.Location = new System.Drawing.Point(-4, 0);
-            this.pb_logo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pb_logo.Name = "pb_logo";
-            this.pb_logo.Size = new System.Drawing.Size(51, 38);
-            this.pb_logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pb_logo.TabIndex = 0;
-            this.pb_logo.TabStop = false;
-            // 
-            // pb_women
-            // 
-            this.pb_women.Location = new System.Drawing.Point(802, 2);
-            this.pb_women.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pb_women.Name = "pb_women";
-            this.pb_women.Size = new System.Drawing.Size(35, 36);
-            this.pb_women.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pb_women.TabIndex = 1;
-            this.pb_women.TabStop = false;
-            // 
             // FormQLPhong
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -486,14 +488,14 @@
             this.panel1.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_logo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_women)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bt_xoa)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bt_sua)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bt_them)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bt_search)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_logo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_women)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
