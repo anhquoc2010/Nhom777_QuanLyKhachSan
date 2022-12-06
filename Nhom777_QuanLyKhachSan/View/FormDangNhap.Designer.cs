@@ -31,12 +31,12 @@
             this.lb_DangNhap = new System.Windows.Forms.Label();
             this.lb_user = new System.Windows.Forms.Label();
             this.lb_password = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pb_logohotel = new System.Windows.Forms.PictureBox();
             this.tb_user = new System.Windows.Forms.TextBox();
             this.tb_password = new System.Windows.Forms.TextBox();
             this.bt_dangnhap = new System.Windows.Forms.Button();
             this.bt_show = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_logohotel)).BeginInit();
             this.SuspendLayout();
             // 
             // lb_DangNhap
@@ -77,15 +77,15 @@
             this.lb_password.Text = "Mật khẩu";
             this.lb_password.Click += new System.EventHandler(this.label1_Click_1);
             // 
-            // pictureBox1
+            // pb_logohotel
             // 
-            this.pictureBox1.Image = global::Nhom777_QuanLyKhachSan.Properties.Resources.logo_hotel;
-            this.pictureBox1.Location = new System.Drawing.Point(49, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(153, 149);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
+            this.pb_logohotel.Image = global::Nhom777_QuanLyKhachSan.Properties.Resources.logo_hotel;
+            this.pb_logohotel.Location = new System.Drawing.Point(49, 12);
+            this.pb_logohotel.Name = "pb_logohotel";
+            this.pb_logohotel.Size = new System.Drawing.Size(153, 149);
+            this.pb_logohotel.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_logohotel.TabIndex = 2;
+            this.pb_logohotel.TabStop = false;
             // 
             // tb_user
             // 
@@ -137,7 +137,7 @@
             this.Controls.Add(this.bt_dangnhap);
             this.Controls.Add(this.tb_password);
             this.Controls.Add(this.tb_user);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pb_logohotel);
             this.Controls.Add(this.lb_password);
             this.Controls.Add(this.lb_user);
             this.Controls.Add(this.lb_DangNhap);
@@ -146,7 +146,7 @@
             this.Name = "FormDangNhap";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormDangNhap";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_logohotel)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -157,7 +157,7 @@
         private System.Windows.Forms.Label lb_DangNhap;
         private System.Windows.Forms.Label lb_user;
         private System.Windows.Forms.Label lb_password;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pb_logohotel;
         private System.Windows.Forms.TextBox tb_user;
         private System.Windows.Forms.TextBox tb_password;
         private System.Windows.Forms.Button bt_dangnhap;

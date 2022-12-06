@@ -83,6 +83,16 @@ namespace Nhom777_QuanLyKhachSan.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap bgr_fmThongKe {
+            get {
+                object obj = ResourceManager.GetObject("bgr_fmThongKe", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap bgr_formDangNhap {
             get {
                 object obj = ResourceManager.GetObject("bgr_formDangNhap", resourceCulture);
@@ -136,6 +146,16 @@ namespace Nhom777_QuanLyKhachSan.Properties {
         internal static System.Drawing.Bitmap logo_hotel4 {
             get {
                 object obj = ResourceManager.GetObject("logo_hotel4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap woman {
+            get {
+                object obj = ResourceManager.GetObject("woman", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
