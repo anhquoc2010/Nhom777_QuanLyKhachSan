@@ -84,7 +84,7 @@
             this.lb_luongkhach.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lb_luongkhach.Location = new System.Drawing.Point(99, 10);
             this.lb_luongkhach.Name = "lb_luongkhach";
-            this.lb_luongkhach.Size = new System.Drawing.Size(313, 25);
+            this.lb_luongkhach.Size = new System.Drawing.Size(293, 25);
             this.lb_luongkhach.TabIndex = 1;
             this.lb_luongkhach.Text = "Lượng khách 7 ngày gần nhất";
             // 
@@ -120,7 +120,7 @@
             this.lb_doanhthu.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lb_doanhthu.Location = new System.Drawing.Point(118, 15);
             this.lb_doanhthu.Name = "lb_doanhthu";
-            this.lb_doanhthu.Size = new System.Drawing.Size(286, 25);
+            this.lb_doanhthu.Size = new System.Drawing.Size(266, 25);
             this.lb_doanhthu.TabIndex = 0;
             this.lb_doanhthu.Text = "Doanh thu 7 ngày gần nhất";
             // 
@@ -131,7 +131,7 @@
             this.lb_data_sovoihomqua.ForeColor = System.Drawing.Color.Maroon;
             this.lb_data_sovoihomqua.Location = new System.Drawing.Point(19, 42);
             this.lb_data_sovoihomqua.Name = "lb_data_sovoihomqua";
-            this.lb_data_sovoihomqua.Size = new System.Drawing.Size(48, 25);
+            this.lb_data_sovoihomqua.Size = new System.Drawing.Size(46, 25);
             this.lb_data_sovoihomqua.TabIndex = 1;
             this.lb_data_sovoihomqua.Text = "1%";
             // 
@@ -141,7 +141,7 @@
             this.lb_sovoihomqua.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lb_sovoihomqua.Location = new System.Drawing.Point(5, 9);
             this.lb_sovoihomqua.Name = "lb_sovoihomqua";
-            this.lb_sovoihomqua.Size = new System.Drawing.Size(161, 26);
+            this.lb_sovoihomqua.Size = new System.Drawing.Size(151, 25);
             this.lb_sovoihomqua.TabIndex = 0;
             this.lb_sovoihomqua.Text = "So với hôm qua";
             // 
@@ -182,7 +182,7 @@
             this.lb_doanhthuthang.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lb_doanhthuthang.Location = new System.Drawing.Point(5, 6);
             this.lb_doanhthuthang.Name = "lb_doanhthuthang";
-            this.lb_doanhthuthang.Size = new System.Drawing.Size(222, 26);
+            this.lb_doanhthuthang.Size = new System.Drawing.Size(204, 25);
             this.lb_doanhthuthang.TabIndex = 0;
             this.lb_doanhthuthang.Text = "Doanh thu trong tháng";
             // 
@@ -213,7 +213,7 @@
             this.lb_khachhangthang.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lb_khachhangthang.Location = new System.Drawing.Point(3, 4);
             this.lb_khachhangthang.Name = "lb_khachhangthang";
-            this.lb_khachhangthang.Size = new System.Drawing.Size(235, 26);
+            this.lb_khachhangthang.Size = new System.Drawing.Size(215, 25);
             this.lb_khachhangthang.TabIndex = 0;
             this.lb_khachhangthang.Text = "Khách hàng trong tháng";
             // 
@@ -234,7 +234,7 @@
             this.lb_doanhthungay.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lb_doanhthungay.Location = new System.Drawing.Point(5, 5);
             this.lb_doanhthungay.Name = "lb_doanhthungay";
-            this.lb_doanhthungay.Size = new System.Drawing.Size(215, 26);
+            this.lb_doanhthungay.Size = new System.Drawing.Size(199, 25);
             this.lb_doanhthungay.TabIndex = 0;
             this.lb_doanhthungay.Text = "Doanh thu trong ngày";
             // 
@@ -302,7 +302,7 @@
             this.mn_taikhoan});
             this.menuStrip1.Location = new System.Drawing.Point(42, 4);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(712, 34);
+            this.menuStrip1.Size = new System.Drawing.Size(673, 33);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -312,7 +312,7 @@
             this.mn_thongke.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mn_thongke.ForeColor = System.Drawing.Color.Maroon;
             this.mn_thongke.Name = "mn_thongke";
-            this.mn_thongke.Size = new System.Drawing.Size(119, 30);
+            this.mn_thongke.Size = new System.Drawing.Size(112, 29);
             this.mn_thongke.Text = "Thống Kê";
             // 
             // mn_phong
@@ -321,7 +321,7 @@
             this.mn_phong.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mn_phong.ForeColor = System.Drawing.Color.Maroon;
             this.mn_phong.Name = "mn_phong";
-            this.mn_phong.Size = new System.Drawing.Size(86, 30);
+            this.mn_phong.Size = new System.Drawing.Size(79, 29);
             this.mn_phong.Text = "Phòng";
             // 
             // mn_hoadon
@@ -329,7 +329,7 @@
             this.mn_hoadon.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mn_hoadon.ForeColor = System.Drawing.Color.Maroon;
             this.mn_hoadon.Name = "mn_hoadon";
-            this.mn_hoadon.Size = new System.Drawing.Size(110, 30);
+            this.mn_hoadon.Size = new System.Drawing.Size(106, 29);
             this.mn_hoadon.Text = "Hóa Đơn";
             // 
             // mn_khachhang
@@ -338,7 +338,7 @@
             this.mn_khachhang.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mn_khachhang.ForeColor = System.Drawing.Color.Maroon;
             this.mn_khachhang.Name = "mn_khachhang";
-            this.mn_khachhang.Size = new System.Drawing.Size(140, 30);
+            this.mn_khachhang.Size = new System.Drawing.Size(132, 29);
             this.mn_khachhang.Text = "Khách Hàng";
             // 
             // mn_nhanvien
@@ -346,7 +346,7 @@
             this.mn_nhanvien.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mn_nhanvien.ForeColor = System.Drawing.Color.Maroon;
             this.mn_nhanvien.Name = "mn_nhanvien";
-            this.mn_nhanvien.Size = new System.Drawing.Size(125, 30);
+            this.mn_nhanvien.Size = new System.Drawing.Size(118, 29);
             this.mn_nhanvien.Text = "Nhân Viên";
             // 
             // mn_taikhoan
@@ -354,7 +354,7 @@
             this.mn_taikhoan.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mn_taikhoan.ForeColor = System.Drawing.Color.Maroon;
             this.mn_taikhoan.Name = "mn_taikhoan";
-            this.mn_taikhoan.Size = new System.Drawing.Size(124, 30);
+            this.mn_taikhoan.Size = new System.Drawing.Size(118, 29);
             this.mn_taikhoan.Text = "Tài Khoản";
             // 
             // pb_women

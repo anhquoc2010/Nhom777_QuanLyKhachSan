@@ -32,8 +32,6 @@
             this.lb_timkiemhoadon = new System.Windows.Forms.Label();
             this.tb_search = new System.Windows.Forms.TextBox();
             this.dgv_hoadon = new System.Windows.Forms.DataGridView();
-            this.bt_tailai = new System.Windows.Forms.Button();
-            this.bt_search = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.pb_logo = new System.Windows.Forms.PictureBox();
             this.btDangXuat = new System.Windows.Forms.Button();
@@ -45,6 +43,9 @@
             this.mn_khachhang = new System.Windows.Forms.ToolStripMenuItem();
             this.mn_nhanvien = new System.Windows.Forms.ToolStripMenuItem();
             this.mn_taikhoan = new System.Windows.Forms.ToolStripMenuItem();
+            this.bt_tailai = new System.Windows.Forms.Button();
+            this.bt_search = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_hoadon)).BeginInit();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_logo)).BeginInit();
@@ -89,28 +90,6 @@
             this.dgv_hoadon.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgv_hoadon.Size = new System.Drawing.Size(993, 526);
             this.dgv_hoadon.TabIndex = 17;
-            // 
-            // bt_tailai
-            // 
-            this.bt_tailai.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bt_tailai.BackgroundImage")));
-            this.bt_tailai.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bt_tailai.Location = new System.Drawing.Point(767, 57);
-            this.bt_tailai.Margin = new System.Windows.Forms.Padding(4);
-            this.bt_tailai.Name = "bt_tailai";
-            this.bt_tailai.Size = new System.Drawing.Size(32, 32);
-            this.bt_tailai.TabIndex = 21;
-            this.bt_tailai.UseVisualStyleBackColor = true;
-            // 
-            // bt_search
-            // 
-            this.bt_search.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bt_search.BackgroundImage")));
-            this.bt_search.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bt_search.Location = new System.Drawing.Point(714, 56);
-            this.bt_search.Margin = new System.Windows.Forms.Padding(4);
-            this.bt_search.Name = "bt_search";
-            this.bt_search.Size = new System.Drawing.Size(36, 34);
-            this.bt_search.TabIndex = 20;
-            this.bt_search.UseVisualStyleBackColor = true;
             // 
             // panel3
             // 
@@ -230,12 +209,47 @@
             this.mn_taikhoan.Size = new System.Drawing.Size(118, 29);
             this.mn_taikhoan.Text = "Tài Khoản";
             // 
+            // bt_tailai
+            // 
+            this.bt_tailai.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bt_tailai.BackgroundImage")));
+            this.bt_tailai.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bt_tailai.Location = new System.Drawing.Point(767, 57);
+            this.bt_tailai.Margin = new System.Windows.Forms.Padding(4);
+            this.bt_tailai.Name = "bt_tailai";
+            this.bt_tailai.Size = new System.Drawing.Size(32, 32);
+            this.bt_tailai.TabIndex = 21;
+            this.bt_tailai.UseVisualStyleBackColor = true;
+            // 
+            // bt_search
+            // 
+            this.bt_search.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bt_search.BackgroundImage")));
+            this.bt_search.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bt_search.Location = new System.Drawing.Point(714, 56);
+            this.bt_search.Margin = new System.Windows.Forms.Padding(4);
+            this.bt_search.Name = "bt_search";
+            this.bt_search.Size = new System.Drawing.Size(36, 34);
+            this.bt_search.TabIndex = 20;
+            this.bt_search.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.White;
+            this.button1.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.Maroon;
+            this.button1.Location = new System.Drawing.Point(846, 52);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(140, 36);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "In hóa đơn";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
             // FormQLHoaDon
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(993, 621);
+            this.ClientSize = new System.Drawing.Size(1006, 621);
             this.Controls.Add(this.panel3);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.bt_tailai);
             this.Controls.Add(this.bt_search);
             this.Controls.Add(this.lb_timkiemhoadon);
@@ -244,6 +258,7 @@
             this.Name = "FormQLHoaDon";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormQLHoaDon";
+            this.Load += new System.EventHandler(this.FormQLHoaDon_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgv_hoadon)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
@@ -274,5 +289,6 @@
         private System.Windows.Forms.ToolStripMenuItem mn_khachhang;
         private System.Windows.Forms.ToolStripMenuItem mn_nhanvien;
         private System.Windows.Forms.ToolStripMenuItem mn_taikhoan;
+        private System.Windows.Forms.Button button1;
     }
 }

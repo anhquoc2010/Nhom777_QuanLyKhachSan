@@ -21,5 +21,15 @@ namespace Nhom777_QuanLyKhachSan.View
         {
 
         }
+
+        private void pb_women_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btDangXuat_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

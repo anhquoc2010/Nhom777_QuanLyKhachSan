@@ -47,11 +47,29 @@
             this.mn_nhanvien = new System.Windows.Forms.ToolStripMenuItem();
             this.mn_taikhoan = new System.Windows.Forms.ToolStripMenuItem();
             this.bt_lockhachhang = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.cbb_gioitinh = new System.Windows.Forms.ComboBox();
+            this.lb_gioitinh = new System.Windows.Forms.Label();
+            this.lb_cc = new System.Windows.Forms.Label();
+            this.lb_sdt = new System.Windows.Forms.Label();
+            this.lb_diachi = new System.Windows.Forms.Label();
+            this.lb_tekh = new System.Windows.Forms.Label();
+            this.lb_makh = new System.Windows.Forms.Label();
+            this.tb_cc = new System.Windows.Forms.TextBox();
+            this.tb_sdt = new System.Windows.Forms.TextBox();
+            this.tb_diachi = new System.Windows.Forms.TextBox();
+            this.tb_tenkh = new System.Windows.Forms.TextBox();
+            this.tb_makh = new System.Windows.Forms.TextBox();
+            this.bt_thoat = new System.Windows.Forms.Button();
+            this.bt_capnhat = new System.Windows.Forms.Button();
+            this.bt_xoa = new System.Windows.Forms.Button();
+            this.bt_taomoi = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_khachhang)).BeginInit();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_logo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_women)).BeginInit();
             this.menuStrip1.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // linkLabel
@@ -128,7 +146,7 @@
             this.panel3.Location = new System.Drawing.Point(-2, 0);
             this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1011, 38);
+            this.panel3.Size = new System.Drawing.Size(1324, 38);
             this.panel3.TabIndex = 19;
             // 
             // pb_logo
@@ -147,7 +165,7 @@
             this.btDangXuat.BackColor = System.Drawing.Color.DarkRed;
             this.btDangXuat.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btDangXuat.ForeColor = System.Drawing.Color.White;
-            this.btDangXuat.Location = new System.Drawing.Point(870, 2);
+            this.btDangXuat.Location = new System.Drawing.Point(1179, 1);
             this.btDangXuat.Name = "btDangXuat";
             this.btDangXuat.Size = new System.Drawing.Size(140, 36);
             this.btDangXuat.TabIndex = 2;
@@ -157,7 +175,7 @@
             // pb_women
             // 
             this.pb_women.Image = global::Nhom777_QuanLyKhachSan.Properties.Resources.woman;
-            this.pb_women.Location = new System.Drawing.Point(829, 2);
+            this.pb_women.Location = new System.Drawing.Point(1138, 1);
             this.pb_women.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pb_women.Name = "pb_women";
             this.pb_women.Size = new System.Drawing.Size(35, 36);
@@ -247,11 +265,201 @@
             this.bt_lockhachhang.Text = "Lọc";
             this.bt_lockhachhang.UseVisualStyleBackColor = false;
             // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.cbb_gioitinh);
+            this.panel1.Controls.Add(this.lb_gioitinh);
+            this.panel1.Controls.Add(this.lb_cc);
+            this.panel1.Controls.Add(this.lb_sdt);
+            this.panel1.Controls.Add(this.lb_diachi);
+            this.panel1.Controls.Add(this.lb_tekh);
+            this.panel1.Controls.Add(this.lb_makh);
+            this.panel1.Controls.Add(this.tb_cc);
+            this.panel1.Controls.Add(this.tb_sdt);
+            this.panel1.Controls.Add(this.tb_diachi);
+            this.panel1.Controls.Add(this.tb_tenkh);
+            this.panel1.Controls.Add(this.tb_makh);
+            this.panel1.Controls.Add(this.bt_thoat);
+            this.panel1.Controls.Add(this.bt_capnhat);
+            this.panel1.Controls.Add(this.bt_xoa);
+            this.panel1.Controls.Add(this.bt_taomoi);
+            this.panel1.Location = new System.Drawing.Point(1017, 43);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(305, 569);
+            this.panel1.TabIndex = 20;
+            // 
+            // cbb_gioitinh
+            // 
+            this.cbb_gioitinh.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.cbb_gioitinh.FormattingEnabled = true;
+            this.cbb_gioitinh.Location = new System.Drawing.Point(119, 330);
+            this.cbb_gioitinh.Margin = new System.Windows.Forms.Padding(4);
+            this.cbb_gioitinh.Name = "cbb_gioitinh";
+            this.cbb_gioitinh.Size = new System.Drawing.Size(181, 30);
+            this.cbb_gioitinh.TabIndex = 15;
+            // 
+            // lb_gioitinh
+            // 
+            this.lb_gioitinh.AutoSize = true;
+            this.lb_gioitinh.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.lb_gioitinh.Location = new System.Drawing.Point(4, 337);
+            this.lb_gioitinh.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lb_gioitinh.Name = "lb_gioitinh";
+            this.lb_gioitinh.Size = new System.Drawing.Size(90, 25);
+            this.lb_gioitinh.TabIndex = 14;
+            this.lb_gioitinh.Text = "Giới tính";
+            // 
+            // lb_cc
+            // 
+            this.lb_cc.AutoSize = true;
+            this.lb_cc.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.lb_cc.Location = new System.Drawing.Point(4, 281);
+            this.lb_cc.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lb_cc.Name = "lb_cc";
+            this.lb_cc.Size = new System.Drawing.Size(97, 25);
+            this.lb_cc.TabIndex = 13;
+            this.lb_cc.Text = "Căn cước";
+            // 
+            // lb_sdt
+            // 
+            this.lb_sdt.AutoSize = true;
+            this.lb_sdt.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.lb_sdt.Location = new System.Drawing.Point(4, 228);
+            this.lb_sdt.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lb_sdt.Name = "lb_sdt";
+            this.lb_sdt.Size = new System.Drawing.Size(54, 25);
+            this.lb_sdt.TabIndex = 12;
+            this.lb_sdt.Text = "SĐT";
+            // 
+            // lb_diachi
+            // 
+            this.lb_diachi.AutoSize = true;
+            this.lb_diachi.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.lb_diachi.Location = new System.Drawing.Point(4, 176);
+            this.lb_diachi.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lb_diachi.Name = "lb_diachi";
+            this.lb_diachi.Size = new System.Drawing.Size(76, 25);
+            this.lb_diachi.TabIndex = 11;
+            this.lb_diachi.Text = "Địa chỉ";
+            // 
+            // lb_tekh
+            // 
+            this.lb_tekh.AutoSize = true;
+            this.lb_tekh.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.lb_tekh.Location = new System.Drawing.Point(4, 126);
+            this.lb_tekh.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lb_tekh.Name = "lb_tekh";
+            this.lb_tekh.Size = new System.Drawing.Size(82, 25);
+            this.lb_tekh.TabIndex = 10;
+            this.lb_tekh.Text = "Tên KH";
+            // 
+            // lb_makh
+            // 
+            this.lb_makh.AutoSize = true;
+            this.lb_makh.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.lb_makh.Location = new System.Drawing.Point(4, 73);
+            this.lb_makh.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lb_makh.Name = "lb_makh";
+            this.lb_makh.Size = new System.Drawing.Size(77, 25);
+            this.lb_makh.TabIndex = 9;
+            this.lb_makh.Text = "Mã KH";
+            // 
+            // tb_cc
+            // 
+            this.tb_cc.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.tb_cc.Location = new System.Drawing.Point(119, 277);
+            this.tb_cc.Margin = new System.Windows.Forms.Padding(4);
+            this.tb_cc.Name = "tb_cc";
+            this.tb_cc.Size = new System.Drawing.Size(181, 30);
+            this.tb_cc.TabIndex = 8;
+            // 
+            // tb_sdt
+            // 
+            this.tb_sdt.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.tb_sdt.Location = new System.Drawing.Point(119, 224);
+            this.tb_sdt.Margin = new System.Windows.Forms.Padding(4);
+            this.tb_sdt.Name = "tb_sdt";
+            this.tb_sdt.Size = new System.Drawing.Size(181, 30);
+            this.tb_sdt.TabIndex = 7;
+            // 
+            // tb_diachi
+            // 
+            this.tb_diachi.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.tb_diachi.Location = new System.Drawing.Point(119, 172);
+            this.tb_diachi.Margin = new System.Windows.Forms.Padding(4);
+            this.tb_diachi.Name = "tb_diachi";
+            this.tb_diachi.Size = new System.Drawing.Size(181, 30);
+            this.tb_diachi.TabIndex = 6;
+            // 
+            // tb_tenkh
+            // 
+            this.tb_tenkh.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.tb_tenkh.Location = new System.Drawing.Point(119, 122);
+            this.tb_tenkh.Margin = new System.Windows.Forms.Padding(4);
+            this.tb_tenkh.Name = "tb_tenkh";
+            this.tb_tenkh.Size = new System.Drawing.Size(181, 30);
+            this.tb_tenkh.TabIndex = 5;
+            // 
+            // tb_makh
+            // 
+            this.tb_makh.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.tb_makh.Location = new System.Drawing.Point(119, 69);
+            this.tb_makh.Margin = new System.Windows.Forms.Padding(4);
+            this.tb_makh.Name = "tb_makh";
+            this.tb_makh.Size = new System.Drawing.Size(181, 30);
+            this.tb_makh.TabIndex = 4;
+            // 
+            // bt_thoat
+            // 
+            this.bt_thoat.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bt_thoat.BackgroundImage")));
+            this.bt_thoat.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bt_thoat.Location = new System.Drawing.Point(251, 4);
+            this.bt_thoat.Margin = new System.Windows.Forms.Padding(4);
+            this.bt_thoat.Name = "bt_thoat";
+            this.bt_thoat.Size = new System.Drawing.Size(51, 47);
+            this.bt_thoat.TabIndex = 3;
+            this.bt_thoat.UseVisualStyleBackColor = true;
+            // 
+            // bt_capnhat
+            // 
+            this.bt_capnhat.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bt_capnhat.BackgroundImage")));
+            this.bt_capnhat.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bt_capnhat.Location = new System.Drawing.Point(85, 4);
+            this.bt_capnhat.Margin = new System.Windows.Forms.Padding(4);
+            this.bt_capnhat.Name = "bt_capnhat";
+            this.bt_capnhat.Size = new System.Drawing.Size(51, 47);
+            this.bt_capnhat.TabIndex = 2;
+            this.bt_capnhat.UseVisualStyleBackColor = true;
+            // 
+            // bt_xoa
+            // 
+            this.bt_xoa.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bt_xoa.BackgroundImage")));
+            this.bt_xoa.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bt_xoa.Location = new System.Drawing.Point(167, 4);
+            this.bt_xoa.Margin = new System.Windows.Forms.Padding(4);
+            this.bt_xoa.Name = "bt_xoa";
+            this.bt_xoa.Size = new System.Drawing.Size(51, 47);
+            this.bt_xoa.TabIndex = 1;
+            this.bt_xoa.UseVisualStyleBackColor = true;
+            // 
+            // bt_taomoi
+            // 
+            this.bt_taomoi.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bt_taomoi.BackgroundImage")));
+            this.bt_taomoi.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bt_taomoi.Location = new System.Drawing.Point(4, 4);
+            this.bt_taomoi.Margin = new System.Windows.Forms.Padding(4);
+            this.bt_taomoi.Name = "bt_taomoi";
+            this.bt_taomoi.Size = new System.Drawing.Size(51, 47);
+            this.bt_taomoi.TabIndex = 0;
+            this.bt_taomoi.UseVisualStyleBackColor = true;
+            // 
             // FormQLKhachHang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1008, 602);
+            this.ClientSize = new System.Drawing.Size(1325, 616);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.bt_lockhachhang);
             this.Controls.Add(this.linkLabel);
@@ -261,6 +469,7 @@
             this.Controls.Add(this.bt_search);
             this.Controls.Add(this.dgv_khachhang);
             this.Name = "FormQLKhachHang";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormQLKhachHang";
             ((System.ComponentModel.ISupportInitialize)(this.dgv_khachhang)).EndInit();
             this.panel3.ResumeLayout(false);
@@ -269,6 +478,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pb_women)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -294,5 +505,22 @@
         private System.Windows.Forms.ToolStripMenuItem mn_nhanvien;
         private System.Windows.Forms.ToolStripMenuItem mn_taikhoan;
         private System.Windows.Forms.Button bt_lockhachhang;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.ComboBox cbb_gioitinh;
+        private System.Windows.Forms.Label lb_gioitinh;
+        private System.Windows.Forms.Label lb_cc;
+        private System.Windows.Forms.Label lb_sdt;
+        private System.Windows.Forms.Label lb_diachi;
+        private System.Windows.Forms.Label lb_tekh;
+        private System.Windows.Forms.Label lb_makh;
+        private System.Windows.Forms.TextBox tb_cc;
+        private System.Windows.Forms.TextBox tb_sdt;
+        private System.Windows.Forms.TextBox tb_diachi;
+        private System.Windows.Forms.TextBox tb_tenkh;
+        private System.Windows.Forms.TextBox tb_makh;
+        private System.Windows.Forms.Button bt_thoat;
+        private System.Windows.Forms.Button bt_capnhat;
+        private System.Windows.Forms.Button bt_xoa;
+        private System.Windows.Forms.Button bt_taomoi;
     }
 }

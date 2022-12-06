@@ -21,5 +21,15 @@ namespace Nhom777_QuanLyKhachSan.View
         {
 
         }
+
+        private void bt_sua_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bt_hienthi_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
