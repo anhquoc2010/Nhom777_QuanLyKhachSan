@@ -98,7 +98,11 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="View\FormDangNhap.resx">
+      <DependentUpon>FormDangNhap.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -115,6 +119,30 @@
   <ItemGroup>
     <Folder Include="Controller\" />
     <Folder Include="Model\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bgr_DangNhap.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bgr_formDN.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bgr_formDNhap.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bgr_formDangNhap.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bgr_fmDangNhap.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_hotel4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_hotel.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
