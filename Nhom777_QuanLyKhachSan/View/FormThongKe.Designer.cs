@@ -28,12 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea15 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend15 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series15 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea16 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend16 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series16 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.lb_luongkhach = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
             this.chart_luongkhach = new System.Windows.Forms.DataVisualization.Charting.Chart();
@@ -82,9 +82,10 @@
             // 
             this.lb_luongkhach.AutoSize = true;
             this.lb_luongkhach.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_luongkhach.Location = new System.Drawing.Point(99, 10);
+            this.lb_luongkhach.Location = new System.Drawing.Point(74, 8);
+            this.lb_luongkhach.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lb_luongkhach.Name = "lb_luongkhach";
-            this.lb_luongkhach.Size = new System.Drawing.Size(293, 25);
+            this.lb_luongkhach.Size = new System.Drawing.Size(242, 20);
             this.lb_luongkhach.TabIndex = 1;
             this.lb_luongkhach.Text = "Lượng khách 7 ngày gần nhất";
             // 
@@ -93,34 +94,38 @@
             this.panel7.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.panel7.Controls.Add(this.chart_luongkhach);
             this.panel7.Controls.Add(this.lb_luongkhach);
-            this.panel7.Location = new System.Drawing.Point(9, 247);
+            this.panel7.Location = new System.Drawing.Point(7, 201);
+            this.panel7.Margin = new System.Windows.Forms.Padding(2);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(484, 317);
+            this.panel7.Size = new System.Drawing.Size(363, 258);
             this.panel7.TabIndex = 16;
             // 
             // chart_luongkhach
             // 
-            chartArea1.Name = "ChartArea1";
-            this.chart_luongkhach.ChartAreas.Add(chartArea1);
-            legend1.Name = "Legend1";
-            this.chart_luongkhach.Legends.Add(legend1);
-            this.chart_luongkhach.Location = new System.Drawing.Point(6, 48);
+            chartArea15.Name = "ChartArea1";
+            this.chart_luongkhach.ChartAreas.Add(chartArea15);
+            legend15.Name = "Legend1";
+            this.chart_luongkhach.Legends.Add(legend15);
+            this.chart_luongkhach.Location = new System.Drawing.Point(4, 39);
+            this.chart_luongkhach.Margin = new System.Windows.Forms.Padding(2);
             this.chart_luongkhach.Name = "chart_luongkhach";
-            series1.ChartArea = "ChartArea1";
-            series1.Legend = "Legend1";
-            series1.Name = "Series1";
-            this.chart_luongkhach.Series.Add(series1);
-            this.chart_luongkhach.Size = new System.Drawing.Size(474, 261);
-            this.chart_luongkhach.TabIndex = 2;
+            this.chart_luongkhach.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Chocolate;
+            series15.ChartArea = "ChartArea1";
+            series15.Legend = "Legend1";
+            series15.Name = "Số lượng";
+            this.chart_luongkhach.Series.Add(series15);
+            this.chart_luongkhach.Size = new System.Drawing.Size(356, 212);
+            this.chart_luongkhach.TabIndex = 0;
             this.chart_luongkhach.Text = "chart_luongkhach";
             // 
             // lb_doanhthu
             // 
             this.lb_doanhthu.AutoSize = true;
             this.lb_doanhthu.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_doanhthu.Location = new System.Drawing.Point(118, 15);
+            this.lb_doanhthu.Location = new System.Drawing.Point(88, 12);
+            this.lb_doanhthu.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lb_doanhthu.Name = "lb_doanhthu";
-            this.lb_doanhthu.Size = new System.Drawing.Size(266, 25);
+            this.lb_doanhthu.Size = new System.Drawing.Size(221, 20);
             this.lb_doanhthu.TabIndex = 0;
             this.lb_doanhthu.Text = "Doanh thu 7 ngày gần nhất";
             // 
@@ -129,9 +134,10 @@
             this.lb_data_sovoihomqua.AutoSize = true;
             this.lb_data_sovoihomqua.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lb_data_sovoihomqua.ForeColor = System.Drawing.Color.Maroon;
-            this.lb_data_sovoihomqua.Location = new System.Drawing.Point(19, 42);
+            this.lb_data_sovoihomqua.Location = new System.Drawing.Point(14, 34);
+            this.lb_data_sovoihomqua.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lb_data_sovoihomqua.Name = "lb_data_sovoihomqua";
-            this.lb_data_sovoihomqua.Size = new System.Drawing.Size(46, 25);
+            this.lb_data_sovoihomqua.Size = new System.Drawing.Size(35, 20);
             this.lb_data_sovoihomqua.TabIndex = 1;
             this.lb_data_sovoihomqua.Text = "1%";
             // 
@@ -139,9 +145,10 @@
             // 
             this.lb_sovoihomqua.AutoSize = true;
             this.lb_sovoihomqua.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_sovoihomqua.Location = new System.Drawing.Point(5, 9);
+            this.lb_sovoihomqua.Location = new System.Drawing.Point(4, 7);
+            this.lb_sovoihomqua.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lb_sovoihomqua.Name = "lb_sovoihomqua";
-            this.lb_sovoihomqua.Size = new System.Drawing.Size(151, 25);
+            this.lb_sovoihomqua.Size = new System.Drawing.Size(124, 20);
             this.lb_sovoihomqua.TabIndex = 0;
             this.lb_sovoihomqua.Text = "So với hôm qua";
             // 
@@ -150,9 +157,10 @@
             this.panel5.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.panel5.Controls.Add(this.lb_data_sovoihomqua);
             this.panel5.Controls.Add(this.lb_sovoihomqua);
-            this.panel5.Location = new System.Drawing.Point(244, 77);
+            this.panel5.Location = new System.Drawing.Point(183, 63);
+            this.panel5.Margin = new System.Windows.Forms.Padding(2);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(249, 80);
+            this.panel5.Size = new System.Drawing.Size(187, 65);
             this.panel5.TabIndex = 14;
             // 
             // panel4
@@ -160,9 +168,10 @@
             this.panel4.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.panel4.Controls.Add(this.lb_data_doanhthuthang);
             this.panel4.Controls.Add(this.lb_doanhthuthang);
-            this.panel4.Location = new System.Drawing.Point(6, 161);
+            this.panel4.Location = new System.Drawing.Point(4, 131);
+            this.panel4.Margin = new System.Windows.Forms.Padding(2);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(232, 80);
+            this.panel4.Size = new System.Drawing.Size(174, 65);
             this.panel4.TabIndex = 13;
             // 
             // lb_data_doanhthuthang
@@ -170,9 +179,10 @@
             this.lb_data_doanhthuthang.AutoSize = true;
             this.lb_data_doanhthuthang.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lb_data_doanhthuthang.ForeColor = System.Drawing.Color.Maroon;
-            this.lb_data_doanhthuthang.Location = new System.Drawing.Point(11, 42);
+            this.lb_data_doanhthuthang.Location = new System.Drawing.Point(8, 34);
+            this.lb_data_doanhthuthang.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lb_data_doanhthuthang.Name = "lb_data_doanhthuthang";
-            this.lb_data_doanhthuthang.Size = new System.Drawing.Size(88, 29);
+            this.lb_data_doanhthuthang.Size = new System.Drawing.Size(69, 24);
             this.lb_data_doanhthuthang.TabIndex = 1;
             this.lb_data_doanhthuthang.Text = "100 Tr";
             // 
@@ -180,9 +190,10 @@
             // 
             this.lb_doanhthuthang.AutoSize = true;
             this.lb_doanhthuthang.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_doanhthuthang.Location = new System.Drawing.Point(5, 6);
+            this.lb_doanhthuthang.Location = new System.Drawing.Point(4, 5);
+            this.lb_doanhthuthang.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lb_doanhthuthang.Name = "lb_doanhthuthang";
-            this.lb_doanhthuthang.Size = new System.Drawing.Size(204, 25);
+            this.lb_doanhthuthang.Size = new System.Drawing.Size(171, 20);
             this.lb_doanhthuthang.TabIndex = 0;
             this.lb_doanhthuthang.Text = "Doanh thu trong tháng";
             // 
@@ -191,9 +202,10 @@
             this.panel3.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.panel3.Controls.Add(this.lb_data_khachhangthang);
             this.panel3.Controls.Add(this.lb_khachhangthang);
-            this.panel3.Location = new System.Drawing.Point(243, 161);
+            this.panel3.Location = new System.Drawing.Point(182, 131);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(250, 80);
+            this.panel3.Size = new System.Drawing.Size(188, 65);
             this.panel3.TabIndex = 12;
             // 
             // lb_data_khachhangthang
@@ -201,9 +213,10 @@
             this.lb_data_khachhangthang.AutoSize = true;
             this.lb_data_khachhangthang.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lb_data_khachhangthang.ForeColor = System.Drawing.Color.Maroon;
-            this.lb_data_khachhangthang.Location = new System.Drawing.Point(19, 42);
+            this.lb_data_khachhangthang.Location = new System.Drawing.Point(14, 34);
+            this.lb_data_khachhangthang.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lb_data_khachhangthang.Name = "lb_data_khachhangthang";
-            this.lb_data_khachhangthang.Size = new System.Drawing.Size(69, 29);
+            this.lb_data_khachhangthang.Size = new System.Drawing.Size(54, 24);
             this.lb_data_khachhangthang.TabIndex = 1;
             this.lb_data_khachhangthang.Text = "1000";
             // 
@@ -211,9 +224,10 @@
             // 
             this.lb_khachhangthang.AutoSize = true;
             this.lb_khachhangthang.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_khachhangthang.Location = new System.Drawing.Point(3, 4);
+            this.lb_khachhangthang.Location = new System.Drawing.Point(2, 3);
+            this.lb_khachhangthang.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lb_khachhangthang.Name = "lb_khachhangthang";
-            this.lb_khachhangthang.Size = new System.Drawing.Size(215, 25);
+            this.lb_khachhangthang.Size = new System.Drawing.Size(181, 20);
             this.lb_khachhangthang.TabIndex = 0;
             this.lb_khachhangthang.Text = "Khách hàng trong tháng";
             // 
@@ -222,9 +236,10 @@
             this.lb_data_doanhthungay.AutoSize = true;
             this.lb_data_doanhthungay.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lb_data_doanhthungay.ForeColor = System.Drawing.Color.Maroon;
-            this.lb_data_doanhthungay.Location = new System.Drawing.Point(11, 42);
+            this.lb_data_doanhthungay.Location = new System.Drawing.Point(8, 34);
+            this.lb_data_doanhthungay.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lb_data_doanhthungay.Name = "lb_data_doanhthungay";
-            this.lb_data_doanhthungay.Size = new System.Drawing.Size(66, 26);
+            this.lb_data_doanhthungay.Size = new System.Drawing.Size(55, 22);
             this.lb_data_doanhthungay.TabIndex = 1;
             this.lb_data_doanhthungay.Text = "10 Tr";
             // 
@@ -232,9 +247,10 @@
             // 
             this.lb_doanhthungay.AutoSize = true;
             this.lb_doanhthungay.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_doanhthungay.Location = new System.Drawing.Point(5, 5);
+            this.lb_doanhthungay.Location = new System.Drawing.Point(4, 4);
+            this.lb_doanhthungay.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lb_doanhthungay.Name = "lb_doanhthungay";
-            this.lb_doanhthungay.Size = new System.Drawing.Size(199, 25);
+            this.lb_doanhthungay.Size = new System.Drawing.Size(166, 20);
             this.lb_doanhthungay.TabIndex = 0;
             this.lb_doanhthungay.Text = "Doanh thu trong ngày";
             // 
@@ -243,25 +259,28 @@
             this.panel6.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.panel6.Controls.Add(this.chart_doanhthu);
             this.panel6.Controls.Add(this.lb_doanhthu);
-            this.panel6.Location = new System.Drawing.Point(499, 76);
+            this.panel6.Location = new System.Drawing.Point(374, 62);
+            this.panel6.Margin = new System.Windows.Forms.Padding(2);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(475, 488);
+            this.panel6.Size = new System.Drawing.Size(356, 396);
             this.panel6.TabIndex = 15;
             // 
             // chart_doanhthu
             // 
             this.chart_doanhthu.BackColor = System.Drawing.Color.Transparent;
-            chartArea2.Name = "ChartArea1";
-            this.chart_doanhthu.ChartAreas.Add(chartArea2);
-            legend2.Name = "Legend1";
-            this.chart_doanhthu.Legends.Add(legend2);
-            this.chart_doanhthu.Location = new System.Drawing.Point(3, 42);
+            chartArea16.Name = "ChartArea1";
+            this.chart_doanhthu.ChartAreas.Add(chartArea16);
+            legend16.Name = "Legend1";
+            this.chart_doanhthu.Legends.Add(legend16);
+            this.chart_doanhthu.Location = new System.Drawing.Point(2, 34);
+            this.chart_doanhthu.Margin = new System.Windows.Forms.Padding(2);
             this.chart_doanhthu.Name = "chart_doanhthu";
-            series2.ChartArea = "ChartArea1";
-            series2.Legend = "Legend1";
-            series2.Name = "Series1";
-            this.chart_doanhthu.Series.Add(series2);
-            this.chart_doanhthu.Size = new System.Drawing.Size(469, 446);
+            this.chart_doanhthu.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Chocolate;
+            series16.ChartArea = "ChartArea1";
+            series16.Legend = "Legend1";
+            series16.Name = "Doanh thu";
+            this.chart_doanhthu.Series.Add(series16);
+            this.chart_doanhthu.Size = new System.Drawing.Size(352, 362);
             this.chart_doanhthu.TabIndex = 1;
             this.chart_doanhthu.Text = "chart_doanhthu";
             // 
@@ -270,9 +289,10 @@
             this.panel2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.panel2.Controls.Add(this.lb_data_doanhthungay);
             this.panel2.Controls.Add(this.lb_doanhthungay);
-            this.panel2.Location = new System.Drawing.Point(6, 77);
+            this.panel2.Location = new System.Drawing.Point(4, 63);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(232, 80);
+            this.panel2.Size = new System.Drawing.Size(174, 65);
             this.panel2.TabIndex = 11;
             // 
             // label1
@@ -281,9 +301,10 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.DarkRed;
-            this.label1.Location = new System.Drawing.Point(1, 42);
+            this.label1.Location = new System.Drawing.Point(1, 34);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(127, 32);
+            this.label1.Size = new System.Drawing.Size(101, 25);
             this.label1.TabIndex = 10;
             this.label1.Text = "Thống kê";
             // 
@@ -300,19 +321,20 @@
             this.mn_khachhang,
             this.mn_nhanvien,
             this.mn_taikhoan});
-            this.menuStrip1.Location = new System.Drawing.Point(42, 4);
+            this.menuStrip1.Location = new System.Drawing.Point(32, 3);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(673, 33);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(561, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // mn_thongke
             // 
-            this.mn_thongke.BackColor = System.Drawing.Color.Transparent;
+            this.mn_thongke.BackColor = System.Drawing.Color.RosyBrown;
             this.mn_thongke.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mn_thongke.ForeColor = System.Drawing.Color.Maroon;
             this.mn_thongke.Name = "mn_thongke";
-            this.mn_thongke.Size = new System.Drawing.Size(112, 29);
+            this.mn_thongke.Size = new System.Drawing.Size(94, 24);
             this.mn_thongke.Text = "Thống Kê";
             // 
             // mn_phong
@@ -321,16 +343,18 @@
             this.mn_phong.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mn_phong.ForeColor = System.Drawing.Color.Maroon;
             this.mn_phong.Name = "mn_phong";
-            this.mn_phong.Size = new System.Drawing.Size(79, 29);
+            this.mn_phong.Size = new System.Drawing.Size(67, 24);
             this.mn_phong.Text = "Phòng";
+            this.mn_phong.Click += new System.EventHandler(this.mn_phong_Click);
             // 
             // mn_hoadon
             // 
             this.mn_hoadon.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mn_hoadon.ForeColor = System.Drawing.Color.Maroon;
             this.mn_hoadon.Name = "mn_hoadon";
-            this.mn_hoadon.Size = new System.Drawing.Size(106, 29);
+            this.mn_hoadon.Size = new System.Drawing.Size(88, 24);
             this.mn_hoadon.Text = "Hóa Đơn";
+            this.mn_hoadon.Click += new System.EventHandler(this.mn_hoadon_Click);
             // 
             // mn_khachhang
             // 
@@ -338,32 +362,35 @@
             this.mn_khachhang.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mn_khachhang.ForeColor = System.Drawing.Color.Maroon;
             this.mn_khachhang.Name = "mn_khachhang";
-            this.mn_khachhang.Size = new System.Drawing.Size(132, 29);
+            this.mn_khachhang.Size = new System.Drawing.Size(111, 24);
             this.mn_khachhang.Text = "Khách Hàng";
+            this.mn_khachhang.Click += new System.EventHandler(this.mn_khachhang_Click);
             // 
             // mn_nhanvien
             // 
             this.mn_nhanvien.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mn_nhanvien.ForeColor = System.Drawing.Color.Maroon;
             this.mn_nhanvien.Name = "mn_nhanvien";
-            this.mn_nhanvien.Size = new System.Drawing.Size(118, 29);
+            this.mn_nhanvien.Size = new System.Drawing.Size(97, 24);
             this.mn_nhanvien.Text = "Nhân Viên";
+            this.mn_nhanvien.Click += new System.EventHandler(this.mn_nhanvien_Click);
             // 
             // mn_taikhoan
             // 
             this.mn_taikhoan.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mn_taikhoan.ForeColor = System.Drawing.Color.Maroon;
             this.mn_taikhoan.Name = "mn_taikhoan";
-            this.mn_taikhoan.Size = new System.Drawing.Size(118, 29);
+            this.mn_taikhoan.Size = new System.Drawing.Size(98, 24);
             this.mn_taikhoan.Text = "Tài Khoản";
+            this.mn_taikhoan.Click += new System.EventHandler(this.mn_taikhoan_Click);
             // 
             // pb_women
             // 
             this.pb_women.Image = global::Nhom777_QuanLyKhachSan.Properties.Resources.woman;
-            this.pb_women.Location = new System.Drawing.Point(802, 2);
-            this.pb_women.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pb_women.Location = new System.Drawing.Point(602, 2);
+            this.pb_women.Margin = new System.Windows.Forms.Padding(2);
             this.pb_women.Name = "pb_women";
-            this.pb_women.Size = new System.Drawing.Size(35, 36);
+            this.pb_women.Size = new System.Drawing.Size(26, 29);
             this.pb_women.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pb_women.TabIndex = 1;
             this.pb_women.TabStop = false;
@@ -373,20 +400,22 @@
             this.btDangXuat.BackColor = System.Drawing.Color.DarkRed;
             this.btDangXuat.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btDangXuat.ForeColor = System.Drawing.Color.White;
-            this.btDangXuat.Location = new System.Drawing.Point(843, 2);
+            this.btDangXuat.Location = new System.Drawing.Point(632, 2);
+            this.btDangXuat.Margin = new System.Windows.Forms.Padding(2);
             this.btDangXuat.Name = "btDangXuat";
-            this.btDangXuat.Size = new System.Drawing.Size(140, 36);
+            this.btDangXuat.Size = new System.Drawing.Size(105, 29);
             this.btDangXuat.TabIndex = 2;
             this.btDangXuat.Text = "Đăng xuất";
             this.btDangXuat.UseVisualStyleBackColor = false;
+            this.btDangXuat.Click += new System.EventHandler(this.btDangXuat_Click);
             // 
             // pb_logo
             // 
             this.pb_logo.Image = global::Nhom777_QuanLyKhachSan.Properties.Resources.logo_hotel;
-            this.pb_logo.Location = new System.Drawing.Point(-4, 0);
-            this.pb_logo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pb_logo.Location = new System.Drawing.Point(-3, 0);
+            this.pb_logo.Margin = new System.Windows.Forms.Padding(2);
             this.pb_logo.Name = "pb_logo";
-            this.pb_logo.Size = new System.Drawing.Size(51, 38);
+            this.pb_logo.Size = new System.Drawing.Size(38, 31);
             this.pb_logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pb_logo.TabIndex = 0;
             this.pb_logo.TabStop = false;
@@ -399,20 +428,18 @@
             this.panel1.Controls.Add(this.pb_women);
             this.panel1.Controls.Add(this.menuStrip1);
             this.panel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel1.Location = new System.Drawing.Point(6, -1);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4);
+            this.panel1.Location = new System.Drawing.Point(4, -1);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(983, 38);
+            this.panel1.Size = new System.Drawing.Size(737, 31);
             this.panel1.TabIndex = 17;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // FormThongKe
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Nhom777_QuanLyKhachSan.Properties.Resources.bgr_fmThongKe;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(986, 575);
+            this.ClientSize = new System.Drawing.Size(740, 467);
             this.Controls.Add(this.panel7);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel4);
@@ -421,10 +448,12 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FormThongKe";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormThongKe";
-            this.Load += new System.EventHandler(this.FormThongKe_Load);
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormThongKe_FormClosing);
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart_luongkhach)).EndInit();

@@ -86,6 +86,7 @@ CREATE TABLE HoaDon (
     maNV CHAR(7) NOT NULL,
     ngayBatDau DATE NOT NULL,
     ngayThanhToan DATE NOT NULL,
+    giaPhong MONEY NOT NULL,
     tinhTrang NVARCHAR(200) NOT NULL,
     CONSTRAINT fk_hd_maphong FOREIGN KEY (maPhong) REFERENCES Phong (maPhong),
 	CONSTRAINT fk_hd_manv FOREIGN KEY (maNV) REFERENCES NhanVien (maNV)
@@ -93,11 +94,13 @@ CREATE TABLE HoaDon (
 GO
 
 INSERT INTO HoaDon VALUES
-	('HD00001', 'PH00005', 'NV00001', '2022-11-28', '2022-12-01', N'Đã thanh toán'),
-	('HD00002', 'PH00008', 'NV00002', '2022-11-15', '2022-12-02', N'Đã thanh toán'),
-	('HD00003', 'PH00006', 'NV00005', '2022-11-25', '2022-12-03', N'Đã thanh toán'),
-	('HD00004', 'PH00002', 'NV00003', '2022-11-30', '2022-12-05', N'Đã thanh toán'),
-	('HD00005', 'PH00007', 'NV00002', '2022-11-05', '2022-12-06', N'Đã thanh toán');
+	('HD00001', 'PH00005', 'NV00001', '2022-11-28', '2022-12-01', '600000', N'Đã thanh toán'),
+	('HD00002', 'PH00008', 'NV00002', '2022-11-15', '2022-12-02', '350000', N'Đã thanh toán'),
+	('HD00003', 'PH00006', 'NV00005', '2022-11-25', '2022-12-03', '600000', N'Đã thanh toán'),
+	('HD00004', 'PH00002', 'NV00003', '2022-11-30', '2022-12-05', '2400000', N'Đã thanh toán'),
+	('HD00005', 'PH00007', 'NV00002', '2022-11-05', '2022-12-06', '300000', N'Đã thanh toán'),
+	('HD00006', 'PH00001', 'NV00004', '2022-11-03', '2022-12-07', '120000',	N'Đã thanh toán'),
+	('HD00007', 'PH00002','NV00001', '2022-12-06', '2022-12-07', '2400000', N'Đã thanh toán');
 GO
 
 CREATE TABLE KhachHang (
