@@ -16,5 +16,10 @@ namespace Nhom777_QuanLyKhachSan.View
         {
             InitializeComponent();
         }
+
+        private void FormQLHoaDon_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

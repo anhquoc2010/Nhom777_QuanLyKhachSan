@@ -16,5 +16,20 @@ namespace Nhom777_QuanLyKhachSan.View
         {
             InitializeComponent();
         }
+
+        private void lb_timkiemkhachhang_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pb_women_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btDangXuat_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
